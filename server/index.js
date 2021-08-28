@@ -6,7 +6,7 @@ const cors =  require('cors')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 
-const PORT = 5000
+const PORT = process.env.PORT || 5000
 
 // LOCAL IMPORTS 
 const confiq_URL = require('./database/config')
