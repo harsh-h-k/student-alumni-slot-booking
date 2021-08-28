@@ -1,0 +1,16 @@
+/* UTILITY CLASSES  */
+.heading{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #004d79;
+}
+
+.body1{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.body2{
+    font-size: 16px;
+}

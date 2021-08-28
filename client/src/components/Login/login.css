@@ -1,0 +1,101 @@
+.login{
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f3fc    ;
+}
+
+.login__image{
+    width: 40%;
+    height: 100vh;
+    background-image: url('https://image.freepik.com/free-vector/virtual-graduation-ceremony_23-2148576402.jpg');
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.login__form__container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form{
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    align-self: center;
+    text-align: center;
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.75);
+}
+
+.login__form__heading{
+    border-top: 1px solid black;
+}
+
+.login__form__radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__form__radio input{
+    margin: 5px;
+}
+
+.login__form__inputs{
+    margin: 5px 0px;
+}
+
+
+.login__form__inputs input{
+    font-size: 18px;
+    padding: 5px;
+    width: 80%;
+    height: 20px;
+    margin: 2px;
+}
+
+.login__btn{
+    border-style: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: #004d79;
+    color: white;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.login__btn:hover{
+    background-color: white;
+    color:#004d79 ;
+    border: 1.5px solid #004d79;
+    box-shadow: 0px 0px 14px -6px #004d79;
+
+}
+
+@media (max-width:768px){
+    .login{
+        flex-direction: column;
+    }
+
+    .login__image{
+        display: none;
+       
+    }
+
+    .login__form__container{
+        width: 100%;
+    }
+
+    .login__form{
+        width: 80%;
+    }
+
+}

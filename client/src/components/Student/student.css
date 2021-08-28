@@ -1,0 +1,55 @@
+.student{
+    background-color:#d5edf5 ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student__booking__heading{
+    margin: 0px auto;
+    width: 80%;
+}
+
+.student__booking__container{
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.student__booking__form{
+margin: 20px 0px;
+}
+
+.student__date{
+   margin: 10px 0px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.student__radio__button{
+    display: flex;
+    flex-direction: column;
+}
+
+.student__radio__button label{
+    margin: 5px 0px;
+}
+
+.student__image{
+    width: 40%;
+    object-fit: contain;
+}
+
+.student__btn{
+    width: 25%;
+}
+
+.student__confirm__booking__error{
+    border-top: 1px solid black;
+}
